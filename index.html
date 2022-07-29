@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        thead tr, th{
+            border: 1px solid brown;
+            background-color: bisque;
+        }
+        tbody td{
+            border: 2px solid salmon;
+        }
+        tfoot td{
+            border: 2px solid rgb(54, 67, 132);
+        }
+    </style>
+    <table>
+        <!--Título-->
+        <caption>Listado de Estudiantes</caption>
+        <!--Cabecera de la Tabla-->
+        <thead>
+            <tr><!--Fila-->
+                <th>Nombres Apellidos</th>
+                <th>Matemáticas</th>
+                <th>Química</th>
+                <th>Algebra</th>
+                <th>Programación</th>
+                <th>Diseño Web</th>
+                <th>....</th>
+                <th>....</th>
+                <th>....</th>
+                <th>....</th>
+                <th>....</th>
+                <th>....</th>
+            </tr>    
+        </thead>
+        <tbody><!--Cuerpo de la tabla-->
+            <tr>
+                <th>Nelson Vargas</th>
+                <td>4,0</td>
+                <td>4,5</td> 
+                <td>5,0</td> 
+                <td>4,2</td>  
+                <td>4,5</td>
+            </tr>
+            <tr>
+                <th>Mariana Pimienta</th>
+                <td>4,5</td>
+                <td>3,5</td> 
+                <td>5,0</td> 
+                <td>4,2</td>  
+                <td>4,5</td>
+            </tr>
+
+        </tbody>
+        <tfoot><!--Pie de la tabla-->
+            <td><strong>Promedio</strong></td>
+            <td>3,9</td>
+            <td>2,5</td>
+            <td>4,0</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tfoot>
+
+
+
+    </table>
+</body>
+</html>
